@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color:gainsboro;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 540px;
+    height: 520px;
+    border: 3px solid rgb(217, 153, 16);
+    border-radius: 0.5rem;
+    background-color:ghostwhite;
+
+ 
+}
+ .content h1{
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.6rem;
+ color:rgb(3, 3, 144);
+  
+}
+ .label{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    height: 7rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+.label input{
+    width: 13rem;
+    height: 40px;
+    background-color: rgb(132, 132, 132);
+    text-align: center;
+    border: 2px solid black;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid rgb(244, 237, 237);
+    
+    
+}
+.btn button{
+    cursor: pointer;
+    background-color: rgb(179, 176, 179);
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 800;
+    width: 100px;
+    height: 26px;
+}
+.btn button:hover{
+    font-size: 2rem;
+}
+.content button{
+    cursor: pointer;
+    background-color: rgb(132, 132, 132);
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+#result {
+    border: 2px solid black;
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    border-radius: 10px;
+}
+
+
+@media (max-width:700px){
+    body{
+        overflow-y: hidden;
+    }
+    .box{
+        width: 700px;
+    }
+}
+@media (max-width:500px){
+    body{
+        overflow-y: hidden;
+    }
+    .box{
+        width: 420px;
+    }
+}
